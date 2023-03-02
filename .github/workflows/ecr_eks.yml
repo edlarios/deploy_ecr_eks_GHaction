@@ -60,5 +60,5 @@ jobs:
       run: |
         kubectl apply -f deployment.yaml
         kubectl apply -f service.yaml
-	sleep 60
+        sleep 60
         kubectl get pods --all-namespaces
