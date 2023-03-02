@@ -8,6 +8,6 @@ spec:
     app: calculator
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 8080
+      port: 3001
+      targetPort: 3000
   type: LoadBalancer

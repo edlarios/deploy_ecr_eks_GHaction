@@ -20,4 +20,4 @@ spec:
           image: 633321192470.dkr.ecr.us-east-1.amazonaws.com/calculator:latest 
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 3000
